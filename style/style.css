@@ -59,6 +59,15 @@ header p{
     flex-direction: column;
     align-items: center;
     padding: 50px 0;
+    transition: left .4s ease-in-out;
+    -webkit-transition: left .4s ease-in-out;
+    -moz-transition: left .4s ease-in-out;
+    -ms-transition: left .4s ease-in-out;
+    -o-transition: left .4s ease-in-out;
+}
+
+.sidebar.active{
+    left: 0;
 }
 
 .sidebar img{
@@ -108,7 +117,7 @@ header p{
     position: absolute;
     right: -30px;
     top: 20px;
-    background: #143ba5;
+    background: #311B92;
     width: 30px;
     height: 30px;
     display: flex;
